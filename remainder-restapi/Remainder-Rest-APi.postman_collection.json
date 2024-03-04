@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "7f2d7a48-8c2b-4fa5-9ec1-7966d06da44c",
+		"name": "Remainder-Rest-APi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/maxK?x=7&y=5&n=12345",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"maxK"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "7"
+						},
+						{
+							"key": "y",
+							"value": "5"
+						},
+						{
+							"key": "n",
+							"value": "12345"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"x\": 7,\r\n    \"y\": 5,\r\n    \"n\": 12345\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/maxK?x=7&y=5&n=12345",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"maxK"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "7"
+						},
+						{
+							"key": "y",
+							"value": "5"
+						},
+						{
+							"key": "n",
+							"value": "12345"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://remainderrestapi-env.eba-epxhcrhd.us-east-1.elasticbeanstalk.com/api/maxK?x=7&y=5&n=12345",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://remainderrestapi-env.eba-epxhcrhd.us-east-1.elasticbeanstalk.com/api/maxK?x=7&y=5&n=12345",
+					"protocol": "http",
+					"host": [
+						"remainderrestapi-env",
+						"eba-epxhcrhd",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"api",
+						"maxK"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "7"
+						},
+						{
+							"key": "y",
+							"value": "5"
+						},
+						{
+							"key": "n",
+							"value": "12345"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://remainderrestapi-env.eba-epxhcrhd.us-east-1.elasticbeanstalk.com/api/maxK?x=7&y=5&n=12345 Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"x\": 7,\r\n    \"y\": 5,\r\n    \"n\": 12345\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://remainderrestapi-env.eba-epxhcrhd.us-east-1.elasticbeanstalk.com/api/maxK?x=7&y=5&n=12345",
+					"protocol": "http",
+					"host": [
+						"remainderrestapi-env",
+						"eba-epxhcrhd",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"api",
+						"maxK"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "7"
+						},
+						{
+							"key": "y",
+							"value": "5"
+						},
+						{
+							"key": "n",
+							"value": "12345"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

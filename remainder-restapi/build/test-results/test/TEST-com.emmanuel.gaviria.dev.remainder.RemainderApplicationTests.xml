@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emmanuel.gaviria.dev.remainder.RemainderApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-04T05:08:05" hostname="DESKTOP-EMMA" time="0.763">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.emmanuel.gaviria.dev.remainder.RemainderApplicationTests" time="0.763"/>
+  <system-out><![CDATA[00:08:03.636 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.emmanuel.gaviria.dev.remainder.RemainderApplicationTests]: RemainderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:08:03.724 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.emmanuel.gaviria.dev.remainder.RemainderApplication for test class com.emmanuel.gaviria.dev.remainder.RemainderApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-04T00:08:04.081-05:00  INFO 30268 --- [    Test worker] c.e.g.d.r.RemainderApplicationTests      : Starting RemainderApplicationTests using Java 21.0.2 with PID 30268 (started by krant in C:\REPOSITORIES\Remainder Tech Test\remainder-restapi)
+2024-03-04T00:08:04.082-05:00  INFO 30268 --- [    Test worker] c.e.g.d.r.RemainderApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-03-04T00:08:05.168-05:00  INFO 30268 --- [    Test worker] c.e.g.d.r.RemainderApplicationTests      : Started RemainderApplicationTests in 1.295 seconds (process running for 2.373)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\krant\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.12\be4984cb6fd1ef1d11f218a648889dfda44b8a15\byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
