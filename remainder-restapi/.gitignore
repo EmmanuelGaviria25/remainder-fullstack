@@ -1,0 +1,23 @@
+# Bytecode
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+.idea/
+.gradle/
+*.iml
+*.ipr
+*.iws
+*.classpaths
+
+# Build folders
+build/
+bin/
+out/
+
+# Dependency directories
+lib/
