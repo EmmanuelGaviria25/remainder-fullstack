@@ -1,0 +1,24 @@
+<div class="container">
+  <h2>Calculate Remainder</h2>
+  <div class="row">
+    <div class="form-group col">
+      <label for="x">x:</label>
+      <input type="number" [(ngModel)]="x" name="x">
+    </div>
+    <div class="form-group col">
+      <label for="y">y:</label>
+      <input type="number" [(ngModel)]="y" name="y">
+    </div>
+    <div class="form-group col">
+      <label for="n">n:</label>
+      <input type="number" [(ngModel)]="n" name="n">
+    </div>
+  </div>
+  <div class="form-group">
+    <button class="get-btn" (click)="getMaxK()">GET Remainder</button>
+    <button class="post-btn" (click)="postMaxK()">POST Remainder</button>
+  </div>
+  <div class="result" *ngIf="result !== undefined">
+    <p><b>Remainder:</b> {{ result }}</p>
+  </div>
+</div>
